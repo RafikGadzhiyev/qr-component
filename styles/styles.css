@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 15px;
+  background-color: #D5E1EF;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-component-container {
+  width: 400px;
+  height: 550px;
+  min-width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1fr;
+}
+@media screen and (max-width: 500px) {
+  .qr-component-container {
+    width: 250px;
+  }
+}
+
+.qr-component-wrapper {
+  padding: 1rem;
+}
+
+.qr-component-qr-image-container {
+  margin-bottom: 0.5rem;
+}
+
+.qr-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+}
+
+.qr-component-description-container {
+  text-align: center;
+}
+
+.qr-description-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.qr-description-paragraph {
+  color: #CACBCF;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=styles.css.map */
